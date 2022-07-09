@@ -126,6 +126,8 @@ button {
   left: 95%;
 }
 
-.blank {
-  /* display: none; */
+input[type="text"],
+input[type="number"] {
+  font-size: 20px;
+  padding-left: 15px;
 }

@@ -97,6 +97,7 @@ function MainContent() {
                 name="bookName"
                 value={bookName}
                 placeholder="Enter book Name"
+                required="true"
               />
             </label>
             <br />
@@ -108,6 +109,7 @@ function MainContent() {
                 name="pageNumber"
                 value={pageNumber}
                 placeholder="Enter page Number"
+                required="true"
               />
             </label>
           </div>
