@@ -131,3 +131,115 @@ input[type="number"] {
   font-size: 20px;
   padding-left: 15px;
 }
+
+@media (max-width: 84em) {
+  label {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 75em) {
+  .card {
+    gap: 4rem;
+  }
+
+  .in-el {
+    gap: 1rem;
+  }
+
+  .form-container {
+    width: 30%;
+  }
+
+  .centered {
+    left: 25%;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .form-container {
+    width: 35%;
+  }
+
+  .centered {
+    left: 28%;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .App {
+    grid-template-columns: 1fr;
+  }
+
+  .bookmark-img {
+    height: 600px;
+  }
+
+  .in-el {
+    gap: 0.8rem;
+  }
+
+  .form-container {
+    width: 40%;
+  }
+
+  .centered {
+    left: 50%;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+
+  input {
+    height: 1.7rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .bookmark-img {
+    height: 500px;
+  }
+
+  .in-el {
+    gap: 0.5rem;
+  }
+
+  .form-container {
+    width: 50%;
+  }
+
+  .centered {
+    top: 37%;
+  }
+
+  label {
+    font-size: 1.7rem;
+  }
+
+  input {
+    height: 1.2rem;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    font-size: 17px;
+    padding-left: 15px;
+  }
+}
