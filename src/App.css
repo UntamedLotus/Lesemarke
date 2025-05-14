@@ -63,7 +63,6 @@
 	padding: 1.5rem;
 	margin: 0 auto;
 	width: 80%;
-	height: 85%;
 }
 
 .bookmarked-page {
@@ -92,6 +91,7 @@
 .intro {
 	padding: 2rem;
 	text-align: center;
+	height: 100%;
 }
 
 .underlined {
@@ -137,4 +137,79 @@ input[type="number"] {
 
 .books::-webkit-scrollbar {
 	display: none;
+}
+
+/* MEDIA QUERY FOR RESPONSIVENESS */
+@media (max-width: 768px) {
+	.App {
+		grid-template-columns: 1fr;
+		height: auto;
+		padding: 1rem;
+		gap: 2rem;
+	}
+
+	.MainContent {
+		width: 100%;
+		height: auto;
+		background-size: contain;
+	}
+
+	.card {
+		width: 90%;
+		height: auto;
+		gap: 2rem;
+		padding: 1.5rem;
+	}
+
+	.input-field-section label {
+		font-size: medium;
+	}
+
+	.submit {
+		font-size: small;
+	}
+
+	.Info {
+		width: 95%;
+		height: auto;
+		padding: 1rem;
+	}
+
+	.title {
+		font-size: 2.5rem;
+	}
+
+	.text {
+		font-size: 1.2rem;
+	}
+
+	.clear {
+		font-size: 1.2rem;
+		top: 0;
+		left: 90%;
+	}
+
+	.bookmark-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.books {
+		height: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.title {
+		font-size: 2rem;
+	}
+
+	.text {
+		font-size: 1rem;
+	}
+
+	.card {
+		padding: 1rem;
+		gap: 1rem;
+	}
 }
